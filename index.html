@@ -117,7 +117,7 @@ d3.csv("data4.csv", function(error, data) {
      .style("fill", "steelblue")         
      .on("click", function(){
        // determine if current line is visible
-       var active   = blueLine.active ? false : true,
+       var active   = blueLine.active ? false : true, // blueLine.active is not defined initially, and active is set to true
        newOpacity = active ? 0 : 1;
        // hide or show the elements
        d3.select("#blueLine").style("opacity", newOpacity);
