@@ -1,0 +1,3 @@
+This is a multiple line graph demonstrating how to show / hide elements by clicking on other elements. This was written using d3.js v4 and is a follow on to the multiple line graph example [here](http://bl.ocks.org/d3noob/814a2bcb3e7d8d8db74f36f77c8e6b7f). 
+
+This graph is part of the code samples for the update to the book [D3 Tips and Tricks](https://leanpub.com/d3-t-and-t-v4) to version 4 of d3.js.
